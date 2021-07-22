@@ -1,18 +1,26 @@
 {
   "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon ./dist/index.js",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./dist/index.js",
+    "test": "jest --watch",
     "tsc": "tsc -w"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-typescript": "^7.14.5",
     "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
+    "babel-jest": "^27.0.6",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-xo": "^0.37.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
   "type": "module"

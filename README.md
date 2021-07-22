@@ -2,10 +2,6 @@
 
 Uses `"strict"` settings, includes `eslint`, `prettier`, the each and everything.
 
-Use ES Modules, but you must `import` from `.js`, even if your file is a `.ts`.
-
-For example, say we have `src.test.ts` lik this: `export default () : string => "Hello Export"`
-
-Then, in `src/index.ts`: `import something from "./test.js"`
-
-This is due to using `"module": "ES2020"`.
+1. `npm run tsc` for `tsc -w`
+2. In separate terminal window, `npm start` to have `nodemon` watch the built files. Runs with `node --experimental`.
+3. If desired, in another terminal window, `npm test` to run `jest --watch`
