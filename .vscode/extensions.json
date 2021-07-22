@@ -7,10 +7,7 @@
     "mgmcdermott.vscode-language-babel",
     "meganrogge.template-string-converter",
     "oderwat.indent-rainbow",
-    "pkief.material-icon-theme",
-    "equinusocio.vsc-material-theme",
     "stkb.rewrap",
-    "streetsidesoftware.code-spell-checker",
-    "visualstudioexptteam.vscodeintellicode"
+    "streetsidesoftware.code-spell-checker"
   ]
 }
