@@ -3,7 +3,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['xo', 'prettier'],
+  extends: ['xo', 'plugin:jest/recommended', 'plugin:jest/style', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
