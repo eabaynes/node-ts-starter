@@ -1,16 +1,7 @@
 {
   "recommendations": [
-    "2gua.rainbow-brackets",
-    "aaron-bond.better-comments",
+    "codezombiech.gitignore",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "mgmcdermott.vscode-language-babel",
-    "meganrogge.template-string-converter",
-    "oderwat.indent-rainbow",
-    "pkief.material-icon-theme",
-    "equinusocio.vsc-material-theme",
-    "stkb.rewrap",
-    "streetsidesoftware.code-spell-checker",
-    "visualstudioexptteam.vscodeintellicode"
+    "esbenp.prettier-vscode"
   ]
 }
