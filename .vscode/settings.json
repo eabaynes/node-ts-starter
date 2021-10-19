@@ -1,5 +1,6 @@
 {
-  "better-comments.highlightPlainText": true,
+  "css.validate": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "addMissingImports": true,
     "source.fixAll": true,
@@ -8,15 +9,18 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.scrollBeyondLastColumn": 2,
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 80,
   "eslint.alwaysShowStatus": true,
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.validate.enable": false,
   "prettier.requireConfig": true,
-  "stylelint.enable": false
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.view.alwaysShowHeaderActions": true
 }
