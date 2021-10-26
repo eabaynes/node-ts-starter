@@ -9,7 +9,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.linkedEditing": true,
   "editor.scrollBeyondLastColumn": 2,
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
