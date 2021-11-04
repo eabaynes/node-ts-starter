@@ -20,6 +20,5 @@
   "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.validate.enable": false,
   "prettier.requireConfig": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.view.alwaysShowHeaderActions": true
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
