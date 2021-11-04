@@ -1,7 +1,7 @@
 {
   "recommendations": [
-    "codezombiech.gitignore",
     "dbaeumer.vscode-eslint",
+    "donjayamanne.git-extension-pack",
     "esbenp.prettier-vscode"
   ]
 }
