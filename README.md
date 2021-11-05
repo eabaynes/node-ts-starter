@@ -1,4 +1,4 @@
-# `typescript` Starter
+# TypeScript Starter
 
 Uses `"strict"` settings, includes `eslint`, `prettier`, the each and everything.
 
