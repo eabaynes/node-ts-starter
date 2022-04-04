@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
     "module": "es2022",
     "moduleResolution": "node",
     "noEmitOnError": true,
