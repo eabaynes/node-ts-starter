@@ -6,10 +6,12 @@
     "tsc": "tsc -w"
   },
   "devDependencies": {
+    "@babel/core": ">=7.13.0 <8.0.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@tsconfig/node14": "^1.0.1",
     "@types/jest": "^27.4.1",
+    "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "babel-jest": "^27.5.1",
