@@ -1,5 +1,4 @@
 {
-  "css.validate": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "addMissingImports": true,
@@ -18,8 +17,6 @@
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "prettier.requireConfig": true,
-  "typescript.inlayHints.parameterNames.enabled": "none",
-  "typescript.suggest.classMemberSnippets.enabled": false,
   "typescript.validate.enable": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
 }
