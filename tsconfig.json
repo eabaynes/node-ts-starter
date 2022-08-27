@@ -1,12 +1,15 @@
 {
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
+    "esModuleInterop": false,
     "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext"],
     "module": "es2022",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "outDir": "./dist",
     "skipLibCheck": false,
+    "sourceMap": true,
     "strict": true,
     "target": "ES2022",
     "noUncheckedIndexedAccess": true
