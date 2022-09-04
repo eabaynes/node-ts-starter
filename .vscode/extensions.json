@@ -1,4 +1,4 @@
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "
-ms-vscode.vscode-typescript-next"]
+  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", 
+                      "ms-vscode.vscode-typescript-next"]
 }
