@@ -1,8 +1,6 @@
 # TypeScript Starter
 
-**Update:** A `pnpm-lock.yaml` file was added to the root of the project. If possible use `pnpm` over `npm`. You might like it better. See [the docs 📝](https://pnpm.io/motivation) if interested. If not, delete this file.
-
-Uses `"strict"` settings, includes `eslint`, `prettier`, the each and everything.
+Uses `"strict"` settings, includes `eslint`, `prettier`, the each and everything. Just do `npm i` and then `npm start` or read on...
 
 ## `package.json`
 
