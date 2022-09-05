@@ -4,9 +4,13 @@
 
 Uses `"strict"` settings, includes `eslint`, `prettier`, the each and everything.
 
-1. `npm run tsc` for `tsc -w`
-2. In separate terminal window, `npm start` to have `nodemon` watch the built files. Runs with `node --experimental`.
-3. If desired, in another terminal window, `npm test` to run `jest --watch`
+## `package.json`
+
+As you can see, we can just run `npm start`. This will start up a `tsc` compiler and `nodemon`. As you work, your files will auto-save, compile with `tsc` and be served up by `nodemon`.
+
+Alternatively, you may just want to run `npm run tsc` and manually run `node dist/index.js` and/or `npm t`.
+
+In either case, auto-saving, formatting and linting will happen because of the `.vscode/settings.json` file.
 
 ## 🎶
 
