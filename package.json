@@ -2,30 +2,25 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "concurrently \"npm:tsc\" \"npm:watch\"",
-    "test": "jest --watch",
+    "test": "vitest",
     "tsc": "tsc -w",
-    "watch": "nodemon --experimental-modules --es-module-specifier-resolution=node ./dist/index.js"
+    "watch": "nodemon ./dist/index.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
-    "@babel/preset-typescript": "^7.18.6",
     "@tsconfig/node16": "^1.0.3",
-    "@types/jest": "^29.0.0",
     "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
-    "babel-jest": "^29.0.2",
     "concurrently": "^7.3.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-plugin-jest": "^27.0.1",
-    "jest": "^29.0.2",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.2",
+    "vitest": "^0.23.1"
   },
   "type": "module"
 }
