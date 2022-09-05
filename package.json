@@ -2,7 +2,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "concurrently \"npm:tsc\" \"npm:watch\"",
-    "test": "vitest",
+    "test": "vitest run --coverage",
     "tsc": "tsc -w",
     "watch": "nodemon ./dist/index.js"
   },
@@ -11,6 +11,7 @@
     "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
+    "@vitest/coverage-c8": "^0.23.1",
     "concurrently": "^7.3.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
