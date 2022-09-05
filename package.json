@@ -1,9 +1,10 @@
 {
   "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./dist/index.js",
+    "start": "concurrently \"npm:tsc\" \"npm:watch\"",
     "test": "jest --watch",
-    "tsc": "tsc -w"
+    "tsc": "tsc -w",
+    "watch": "nodemon --experimental-modules --es-module-specifier-resolution=node ./dist/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
