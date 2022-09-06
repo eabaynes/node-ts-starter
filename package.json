@@ -2,7 +2,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "concurrently \"npm:tsc\" \"npm:watch\"",
-    "test": "vitest run --coverage",
+    "test": "vitest watch --coverage",
     "tsc": "tsc -w",
     "watch": "nodemon ./dist/index.js"
   },
