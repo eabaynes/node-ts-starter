@@ -16,7 +16,6 @@
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-xo": "^0.42.0",
-    "eslint-plugin-jest": "^27.0.1",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
