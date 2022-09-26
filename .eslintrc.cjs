@@ -15,6 +15,7 @@ module.exports = {
     'no-redeclare': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-redeclare': ['error'],
+    '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-unused-vars': ['warn'],
   },
 };
