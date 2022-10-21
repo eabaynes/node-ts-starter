@@ -4,12 +4,32 @@ module.exports = {
     node: true,
   },
   extends: ['xo', 'prettier'],
+  overrides: [
+    {
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:@typescript-eslint/strict',
+      ],
+      files: ['**/*.{ts,tsx}'],
+    },
+    {
+      files: '**/*.test.ts',
+      rules: {
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-call': 'off',
+      },
+    },
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    tsconfigRootDir: __dirname,
+    project: ['./.eslintrc.cjs', './tsconfig.json'],
   },
   plugins: ['@typescript-eslint'],
+  root: true,
   rules: {
     'capitalized-comments': 'off',
     'no-redeclare': 'off',
