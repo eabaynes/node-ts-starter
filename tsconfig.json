@@ -17,5 +17,5 @@
     "sourceMap": true,
     "types": ["vitest/importMeta"]
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", ".eslintrc.cjs"]
 }
