@@ -3,11 +3,19 @@
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
+
+    // For Nest
     "experimentalDecorators": true,
-    "module": "ES2020",
+
+    "isolatedModules": true,
+    "module": "ES2015",
+    "moduleResolution": "Node",
     "noEmitOnError": true,
     "outDir": "dist",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
     "sourceMap": true,
     "types": ["vitest/importMeta"]
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
